@@ -47,8 +47,7 @@ module.exports = {
             patterns: [
                 { 
                     from: "manifest.json", to: "../manifest.json"
-
-                },
+                }
             ],
         }),
     ],

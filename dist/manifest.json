@@ -1,12 +1,14 @@
 {
   "manifest_version": 3,
   "short_name": "WebWork Companion",
-  "name": "WebWork Companion: Redo your WebWorks without spoiling the answers",
+  "name": "WebWork Companion",
   "version": "1.0.0",
   "icons": {
-    "32": "js/webworklogo.png" 
+    "32": "js/webworklogo.png"
   },
-  "action": {"default_popup": "js/popup.html"},
+  "action": {
+    "default_popup": "js/popup.html"
+  },
   "permissions": [
     "scripting",
     "activeTab",
@@ -14,11 +16,13 @@
     "tabs"
   ],
   "host_permissions": [
-    "http://*/*", 
+    "http://*/*",
     "https://*/*"
   ],
   "background": {
     "service_worker": "js/background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data: blob:; connect-src 'self'"
   }
-
 }

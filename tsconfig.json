@@ -1,4 +1,4 @@
-{
+{ 
   "compilerOptions": {
     "types": ["chrome"],
     "target": "es5",
@@ -25,3 +25,4 @@
     "src"
   ]
 }
+ 
