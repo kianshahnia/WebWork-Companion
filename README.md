@@ -13,6 +13,7 @@ WebWork Companion is a lightweight Chrome extension that helps students re-attem
 **Toggle auto-clear ON/OFF**  
 **Manually clear fields with a single click**  
 **No data collection – privacy-friendly**  
+**Create ledgers of all your assignments, saved locally onto your device**
 
 ---
 
